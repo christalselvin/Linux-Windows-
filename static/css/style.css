@@ -1,0 +1,48 @@
+body {
+    padding: 0;
+    background-image: url('/static/images/WhatsApp Image 2023-12-21 at 13.02.10_68a03ae0.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-image: url('/static/images/WhatsApp Image 2023-12-21 at 13.02.13_847961f9.jpg');
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label, input {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 17px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+p {
+    margin-top: 10px;
+    color: #fff;
+}

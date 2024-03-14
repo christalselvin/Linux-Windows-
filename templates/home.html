@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>GRID SYSTEM</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #f8f9fa; /* Light gray background color */
+        }
+        a {
+            color: white;
+        }
+        .well {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 50px;
+            cursor: pointer; /* Add cursor pointer for better UX */
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .page-header {
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="page-header text-primary text-center">GRID SYSTEM</h2>
+        <div class="row col-md-12 d-flex align-items-center justify-content-center">
+            <div class="col-md-1 well" style="width: 150px;" onclick="goToWindowsPage()">
+                <div>Windows</div>
+            </div>
+            <div class="col-md-1 well" style="width: 150px;" onclick="goToLinuxPage()">
+                <div>Linux</div>
+            </div>
+            <div class="col-md-1 well" style="width: 150px;" onclick="goToAWSPage()">
+                <div>AWS</div>
+            </div>
+            <div class="col-md-1 well" target="_blank">
+                <div>1</div>
+            </div>
+            <div class="col-md-1 well" target="_blank">
+                <div>2</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        function goToWindowsPage() {
+            window.location.href = "/windows";
+        }
+
+        function goToLinuxPage() {
+            window.location.href = "/linux";
+        }
+
+        function goToAWSPage() {
+            window.location.href = "/aws";
+        }
+    </script>
+</body>
+</html>
