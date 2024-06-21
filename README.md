@@ -86,12 +86,5 @@ This Flask application provides a web interface to execute commands on both Wind
   - `search.html`: Interface for executing PowerShell commands.
   - `linuxsearch.html`: Interface for executing Bash commands.
 
-## Installation
-
-1. Clone the repository:
-   
-HTTPS
-   git clone https://github.com/christalselvin/Linux-Windows-.git
-   cd portfolio
 
 
