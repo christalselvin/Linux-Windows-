@@ -20,7 +20,7 @@ This Flask application provides a web interface to execute commands on both Wind
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/your-repo-name.git
+    git clone https://github.com/christalselvin/Linux-Windows-.git
     cd your-repo-name
     ```
 
@@ -51,10 +51,10 @@ This Flask application provides a web interface to execute commands on both Wind
     windows_hostname = "localhost"
     windows_port = 5985
 
-    linux_hostname = "dev.autointelli.com"
-    linux_port = 20222
+    linux_hostname = ""
+    linux_port = 22
     linux_username = "root"
-    linux_password = "@ut0!ntell!@123"
+    linux_password = ""
     ```
 
 ## Usage
@@ -71,8 +71,11 @@ This Flask application provides a web interface to execute commands on both Wind
     - Password: `abcd`
 
 4. Use the web interface to execute commands on the Windows or Linux machine.
-## Images 
 
+## Images 
+![Screenshot 2024-06-21 235430](https://github.com/christalselvin/Linux-Windows-/assets/127867279/cf62bd29-3aab-4a61-9644-939c64465d34)
+![Screenshot 2024-06-21 234820](https://github.com/christalselvin/Linux-Windows-/assets/127867279/f5998d03-86af-4b2f-843e-40d67d483c65)
+![Screenshot 2024-06-21 235756](https://github.com/christalselvin/Linux-Windows-/assets/127867279/f95a374f-0a1c-4ff0-996c-8652437aa695)
 
 ## File Structure
 
