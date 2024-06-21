@@ -91,7 +91,7 @@ This Flask application provides a web interface to execute commands on both Wind
 1. Clone the repository:
    
 HTTPS
-   git clone https://github.com/yourusername/portfolio.git
+   git clone https://github.com/yourusername/.git
    cd portfolio
 
 
